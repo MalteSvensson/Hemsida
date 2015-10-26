@@ -1,9 +1,9 @@
-body {
-    background-color: #6495ed;
+body{
+    background-color: #00CC00;
 }
 
-h1 {
-    font-color: orange;
+h1{
+    font-style: orange;
     text-align: center;
 }
 
@@ -30,10 +30,10 @@ h5{
 	position: absolute;
 	right: 4%;
 }
-p {
+p{
 	text-align: center;
 }
-div {
+div{
 	position: fixed;
 	top: 50pt;
 }
