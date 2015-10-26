@@ -1,7 +1,44 @@
 body {
     background-color: #6495ed;
+}
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+    font-color: orange;
+    text-align: center;
+}
+
+h2{ 
+	font-size: 14pt;
+
+	
+}
+
+h5{
+	font-size: 20pt;
+	
+}
+#Koala{
+	position: absolute;
+	right: 4%;
+}
+
+#Armadillo{
+	position: absolute;
+	right: 4%;
+}
+#Elephant-shrew{
+	position: absolute;
+	right: 4%;
+}
+p {
+	text-align: center;
+}
+div {
+	position: fixed;
+	top: 50pt;
+}
+#john-shrew{
+	text-align: center;
+	font-size: 20pt;
+
 }
