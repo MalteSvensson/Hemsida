@@ -12,9 +12,22 @@
 	</head>
 
 				<body>
+	<img id="Armadillo" onclick="changeImage()" src="Armadillo.jpg" width="200" height="150">
 
+<p>Klicka på Armadillon!.</p>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('Armadillo');
+    if (image.src.match("Armadildo.jpg")) {
+        image.src = "Armadillo.jpg";
+    } else {
+        image.src = "Armadildo.jpg";
+    }
+}
+</script>
 			<h1>Armadillo</h1>
-			<img src="Armadillo.jpg" alt="Armadillo" style="width:200px;height:150px;" id="Armadillo">
+			
 			<p>Armadillos are New World placental mammals with a leathery armour shell.</p>
 			<p>Dasypodidae is the only surviving family in the order Cingulata</p>
 			<p>About 10 extant genera and 20 extant species of armadillo have been described,</p>
